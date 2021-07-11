@@ -1,0 +1,74 @@
+{
+  "name": "FileStoreBot [ Avishkar Patil ]",
+  "description": "Telegram Media, FIles, Document Storing and Permanat Link Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "Store",
+    "Files",
+    "AvishkarPatil"
+    "avipatilpro"
+  ],
+  "logo": "https://i.ibb.co/R2cswyL/folder.png",
+  "success_url": "https://avipatilweb.ml",
+  "website": "https://github.com/avipatilpro/FileStoreBot",
+  "repository": "https://github.com/avipatilpro/FileStoreBot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org or use Scrapper bot",
+      "value": ""
+    },
+    "DB_CHANNEL_ID": {
+      "description": "give me the telegram channel ID here (better this should be private channel)",
+      "value": ""
+    },
+    "UPDATE_CHANNEL": {
+      "description": "Your bot updates channel like Ns_bot_updates (username without @ for forcesub). (Leave empty it you don't want to add)",
+      "value": "",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "give your telegram user id here",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or use scrapper bot",
+      "value": ""
+    },
+    "AUTH_USERS": {
+      "description": "Add authorized userids if u are using IS_PRIVATE",
+      "value": "",
+      "required": false
+    },
+    "IS_PRIVATE": {
+      "description": "Add True if you want to use as Private",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [
+  {
+    "plan": "heroku-postgresql",
+    "options": {"version": "12"}
+  }
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
