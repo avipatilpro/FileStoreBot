@@ -1,13 +1,11 @@
 {
-  "name": "FileStoreBot [ Avishkar Patil ]",
-  "description": "Telegram Media, FIles, Document Storing and Permanat Link Bot",
+  "name": "FileStoreBot",
+  "description": "Telegram Media FIles Document Storing and Permanat Link Bot",
   "keywords": [
     "telegram",
     "best",
     "Store",
-    "Files",
-    "AvishkarPatil",
-    "avipatilpro"
+    "Files"
   ],
   "logo": "https://i.ibb.co/R2cswyL/folder.png",
   "success_url": "https://avipatilweb.ml",
@@ -23,7 +21,7 @@
       "value": ""
     },
     "API_ID": {
-      "description": "Get this value from https://my.telegram.org or use Scrapper bot",
+      "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
     "DB_CHANNEL_ID": {
@@ -40,7 +38,7 @@
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from https://my.telegram.org or use scrapper bot",
+      "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
     "AUTH_USERS": {
