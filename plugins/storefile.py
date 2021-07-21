@@ -29,7 +29,7 @@ async def storefile(c, m):
                 text += f"🎵 **Tɪᴛʟᴇ:** __{media.title}__\n\n" if media.title else ""
                 text += f"🎙 **Pᴇʀғᴏʀᴍᴇʀ:** __{media.performer}__\n\n" if media.performer else ""
     text += f"**✏ Cᴀᴘᴛɪᴏɴ:** __{m.caption}__\n\n" if m.caption else ""
-    text += f"**🍁--Uᴘʟᴏᴀᴅᴇᴅ Bʏ :--** [{m.from_user.first_name} {m.from_user.last_name}](tg://user?id={m.from_user.id}) \n\n"
+    text += f"**🍁--Uᴘʟᴏᴀᴅᴇᴅ Bʏ :--** [{m.from_user.first_name}](tg://user?id={m.from_user.id}) \n\n"
         
 
     
