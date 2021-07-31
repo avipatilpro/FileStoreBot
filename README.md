@@ -76,7 +76,7 @@ python3 bot.py
 
  _👉🏻👉🏻 Must Be Add Bot in `DB CHANNEL` and `UPDATE CHANNEL` as Admin_
   
-  <br<
+  <br>
   
 ### Commands :
 
